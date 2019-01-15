@@ -13,9 +13,9 @@ def average_student_gpa
 end
 
 def total_tardies_for_all_students
-  "SELECT SUM(col_name) FROM students"
+  "SELECT SUM(tardies) FROM students"
 end
 
 def average_gpa_for_9th_grade
-  "SELECT AVG(col_name) FROM students WHERE col_name = value"
+  "SELECT AVG(gpa) FROM students WHERE col_name = value"
 end
