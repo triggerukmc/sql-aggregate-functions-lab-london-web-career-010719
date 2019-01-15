@@ -5,11 +5,11 @@ def highest_student_gpa
 end
 
 def lowest_student_gpa
-  "SELECT MIN(col_name) FROM students"
+  "SELECT MIN(gpa) FROM students"
 end
 
 def average_student_gpa
-  "SELECT AVG(col_name) FROM students"
+  "SELECT AVG(gpa) FROM students"
 end
 
 def total_tardies_for_all_students
